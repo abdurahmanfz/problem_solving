@@ -1,0 +1,6 @@
+- Pada permasalahan soal nomor 3 saya menggunakan sebuah array kosong dengan nama "stack".
+- Kemudian buat array untuk menyimpan bracket pembuka dan penutup yang diberi nama opening & closing bracket.
+- kemudian buat sebuah objek untuk memetakan pasangan dari tiap bracket yang diberinama bracketPairs.
+- lakukan iterasi pada setiap karakter input.
+- buat kondisi ketika karakter adalah closing bracket, periksa apakah data pada stack kosong atau jika elemen teratas pada stack (opening bracket terakhir yang ditambahkan) cocok dengan closing bracket saat ini menggunakan bracketPairs. Jika tidak ada closing bracket yang cocok, atau stack kosong, berarti bracket tidak seimbang, jadi fungsi menmberikan hasil "NO".
+- Setelah melakukan iterasi pada semua karakter, pemeriksa apakah stack kosong. Jika stack kosong, semua opening bracket telah dicocokkan dan dihapus dengan benar, jadi function memberikan hasil "YES". Jika tumpukan tidak kosong, berarti ada opening bracket yang tidak cocok, jadi function memberikan hasil "NO".
